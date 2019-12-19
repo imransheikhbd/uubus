@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EngineeringDep"
+    android:orientation="vertical"
+    android:background="@drawable/engineeringdep"
+    >
+
+    <Button
+        android:id="@+id/cse"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="325dp"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    <Button
+        android:id="@+id/eee"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"
+        android:background="?android:attr/selectableItemBackground"
+        />
+    <Button
+        android:id="@+id/physics"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"
+        android:background="?android:attr/selectableItemBackground"
+        />
+    <Button
+        android:id="@+id/mathematics"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+
+</LinearLayout>

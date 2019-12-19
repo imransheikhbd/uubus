@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessDep"
+    android:orientation="vertical"
+    android:background="@drawable/businessdep"
+    >
+
+    <Button
+        android:id="@+id/businesschariman"
+        android:layout_width="710dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="556dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/businesswebsite"
+        android:layout_width="703dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/businesschariman" />
+
+    <Button
+        android:id="@+id/businessfacebook"
+        android:layout_width="736dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="28dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/businesswebsite" />
+
+    <Button
+        android:id="@+id/businessvideo"
+        android:layout_width="743dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="12dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/businessfacebook" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

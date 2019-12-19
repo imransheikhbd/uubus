@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepartmentActivity"
+    android:orientation="vertical"
+    android:background="@drawable/departmentbackground"
+
+    >
+
+    <Button
+        android:id="@+id/depbusiness"
+        android:layout_width="572dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="436dp"
+        android:background="?android:attr/selectableItemBackground"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/depengineering"
+        android:layout_width="545dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="32dp"
+        android:background="?android:attr/selectableItemBackground"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depbusiness" />
+
+    <Button
+        android:id="@+id/departs"
+        android:layout_width="554dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="?android:attr/selectableItemBackground"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depengineering" />
+
+    <Button
+        android:id="@+id/deptextile"
+        android:layout_width="545dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:background="?android:attr/selectableItemBackground"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/departs" />
+
+    <Button
+        android:id="@+id/depeducation"
+        android:layout_width="563dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:background="?android:attr/selectableItemBackground"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deptextile"
+        app:layout_constraintVertical_bias="0.113" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CSEdepartment"
+    android:orientation="vertical"
+    android:background="@drawable/cserchariman"
+    >
+
+
+    <Button
+        android:id="@+id/csechairman"
+        android:layout_width="334dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="276dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/csewebsite"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/csechairman" />
+
+    <Button
+        android:id="@+id/csefacebook"
+        android:layout_width="330dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/csewebsite" />
+
+    <Button
+        android:id="@+id/csevideo"
+        android:layout_width="328dp"
+        android:layout_height="63dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/csefacebook" />
+</androidx.constraintlayout.widget.ConstraintLayout>

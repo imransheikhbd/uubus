@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.uttarauniversity"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/images"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.e.uttarauniversity.Islamicstudiesdep" />
+        <activity android:name="com.e.uttarauniversity.BanglaDep" />
+        <activity android:name="com.e.uttarauniversity.LawDep" />
+        <activity android:name="com.e.uttarauniversity.EnglishDep" />
+        <activity android:name="com.e.uttarauniversity.PhysicVideo" />
+        <activity android:name="com.e.uttarauniversity.PhysicFacebook" />
+        <activity android:name="com.e.uttarauniversity.PhysicWebsite" />
+        <activity android:name="com.e.uttarauniversity.PhysicChairman" />
+        <activity android:name="com.e.uttarauniversity.PhysicsDep" />
+        <activity android:name="com.e.uttarauniversity.EEEvideo" />
+        <activity android:name="com.e.uttarauniversity.EEEwebsite" />
+        <activity android:name="com.e.uttarauniversity.EEEfacebook" />
+        <activity android:name="com.e.uttarauniversity.EEEchairman" />
+        <activity android:name="com.e.uttarauniversity.cseVideoActivity" />
+        <activity android:name="com.e.uttarauniversity.cseFacebookActivity" />
+        <activity android:name="com.e.uttarauniversity.cseWebsiteActivity" />
+        <activity android:name="com.e.uttarauniversity.cseChairmanActivity" />
+        <activity android:name="com.e.uttarauniversity.Mathematicsdepartment" />
+        <activity android:name="com.e.uttarauniversity.Physicsdepartment" />
+        <activity android:name="com.e.uttarauniversity.EEEdepartment" />
+        <activity android:name="com.e.uttarauniversity.CSEdepartment" />
+        <activity android:name="com.e.uttarauniversity.Busniessvideogallary" />
+        <activity android:name="com.e.uttarauniversity.Busniessfacebook" />
+        <activity android:name="com.e.uttarauniversity.Busniesswebsite" />
+        <activity android:name="com.e.uttarauniversity.BusniessChairman" />
+        <activity android:name="com.e.uttarauniversity.EducationDep" />
+        <activity android:name="com.e.uttarauniversity.TextileDep" />
+        <activity android:name="com.e.uttarauniversity.ArtsDep" />
+        <activity android:name="com.e.uttarauniversity.EngineeringDep" />
+        <activity android:name="com.e.uttarauniversity.BusinessDep" />
+        <activity android:name="com.e.uttarauniversity.ExamroutineActivity" />
+        <activity android:name="com.e.uttarauniversity.ClassroutineActivity" />
+        <activity android:name="com.e.uttarauniversity.TuitionfeesActivity" />
+        <activity android:name="com.e.uttarauniversity.ResultuuActivity" />
+        <activity android:name="com.e.uttarauniversity.ERPloginActivity" />
+        <activity android:name="com.e.uttarauniversity.NewalbumActivity" />
+        <activity android:name="com.e.uttarauniversity.OldalbumActivity" />
+        <activity android:name="com.e.uttarauniversity.ConvocationActivity" />
+        <activity android:name="com.e.uttarauniversity.SplashActiviy" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.e.uttarauniversity.MainActivity" />
+        <activity android:name="com.e.uttarauniversity.DepartmentActivity" />
+        <activity android:name="com.e.uttarauniversity.Studentportal" />
+        <activity android:name="com.e.uttarauniversity.Gallary" />
+        <activity android:name="com.e.uttarauniversity.UUbus" />
+        <activity android:name="com.e.uttarauniversity.Aboutus" />
+    </application>
+
+</manifest>

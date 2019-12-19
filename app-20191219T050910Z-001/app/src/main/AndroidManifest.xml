@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.uttarauniversity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/images"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Islamicstudiesdep"></activity>
+        <activity android:name=".BanglaDep" />
+        <activity android:name=".LawDep" />
+        <activity android:name=".EnglishDep" />
+        <activity android:name=".PhysicVideo" />
+        <activity android:name=".PhysicFacebook" />
+        <activity android:name=".PhysicWebsite" />
+        <activity android:name=".PhysicChairman" />
+        <activity android:name=".PhysicsDep" />
+        <activity android:name=".EEEvideo" />
+        <activity android:name=".EEEwebsite" />
+        <activity android:name=".EEEfacebook" />
+        <activity android:name=".EEEchairman" />
+        <activity android:name=".cseVideoActivity" />
+        <activity android:name=".cseFacebookActivity" />
+        <activity android:name=".cseWebsiteActivity" />
+        <activity android:name=".cseChairmanActivity" />
+        <activity android:name=".Mathematicsdepartment" />
+        <activity android:name=".Physicsdepartment" />
+        <activity android:name=".EEEdepartment" />
+        <activity android:name=".CSEdepartment" />
+        <activity android:name=".Busniessvideogallary" />
+        <activity android:name=".Busniessfacebook" />
+        <activity android:name=".Busniesswebsite" />
+        <activity android:name=".BusniessChairman" />
+        <activity android:name=".EducationDep" />
+        <activity android:name=".TextileDep" />
+        <activity android:name=".ArtsDep" />
+        <activity android:name=".EngineeringDep" />
+        <activity android:name=".BusinessDep" />
+        <activity android:name=".ExamroutineActivity" />
+        <activity android:name=".ClassroutineActivity" />
+        <activity android:name=".TuitionfeesActivity" />
+        <activity android:name=".ResultuuActivity" />
+        <activity android:name=".ERPloginActivity" />
+        <activity android:name=".NewalbumActivity" />
+        <activity android:name=".OldalbumActivity" />
+        <activity android:name=".ConvocationActivity" />
+        <activity android:name=".SplashActiviy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DepartmentActivity" />
+        <activity android:name=".Studentportal" />
+        <activity android:name=".Gallary" />
+        <activity android:name=".UUbus" />
+        <activity android:name=".Aboutus" />
+    </application>
+
+</manifest>
